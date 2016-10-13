@@ -1,0 +1,42 @@
+#container{
+    background-color: black;
+	padding: 100px;
+	margin: 100px;
+	text-align: center;
+	font-size: 5.5em;
+	/*font-weight: bold;*/
+	color: green;
+    font-family:'digital-7';
+    font-weight: bold;
+    border: 10px solid grey;
+}
+
+#time{
+	margin: 0px 0px 50px 200px;
+}
+
+#container .milliseconds{
+	position: relative;
+	bottom: -50px;
+	font-size: 20px;
+	color:grey;
+	float: left;
+}
+
+.dn{ 
+    float:left;
+    margin:0 0 0 20px;
+	padding:auto;
+}
+
+@font-face{
+	font-family:'digital-7';
+	src: url('digital-7/digital-7.TTF');
+	font-weight: bold;
+} 
+
+.hourMinuteSecond
+{
+	display: inline-block;
+	float: left;
+}
